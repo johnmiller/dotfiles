@@ -1,0 +1,9 @@
+[user]
+	name = John Miller
+	email = john2021@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
+[pull]
+	default = matching
