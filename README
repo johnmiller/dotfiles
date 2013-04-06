@@ -1,0 +1,8 @@
+Files in repo are hard links to originals. Tried sym links initially, but those aren't followed by git. 
+
+Creating hard links...
+ln ~/.bashrc ~/Development/dotfiles/.bashrc
+ln ~/.bash_profile ~/Development/dotfiles/.bash_profile
+ln ~/.gitconfig ~/Development/dotfiles/.gitconfig
+
+I believe you the mklink command can be used to create hard links in windows.
