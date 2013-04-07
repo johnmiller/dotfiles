@@ -17,6 +17,10 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
+# iTerm2
+export CLICOLOR=1
+export TERM=xterm-256color
+
 # rvm
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
