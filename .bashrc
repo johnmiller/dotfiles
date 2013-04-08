@@ -17,6 +17,10 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
+# sublime
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+export EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -w'
+
 # iTerm2
 export CLICOLOR=1
 export TERM=xterm-256color
