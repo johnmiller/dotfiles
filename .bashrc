@@ -1,6 +1,6 @@
 # aliases - common
 alias l='ls -aF'
-
+alias r='ruby'
 # aliases - shortcuts
 alias cdos='cd ~/Development/option_speculation'
 
