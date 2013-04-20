@@ -5,5 +5,6 @@ ln ~/.bashrc ~/Development/dotfiles/.bashrc
 ln ~/.bash_profile ~/Development/dotfiles/.bash_profile
 ln ~/.gitconfig ~/Development/dotfiles/.gitconfig
 sudo ln /Library/PostgreSQL/9.2/data/postgresql.conf ~/Development/dotfiles/postgresql.conf
+sudo ln /etc/sysctl.conf ~/Development/dotfiles/sysctl.conf
 
 I believe the mklink command can be used to create hard links in windows.
